@@ -1,0 +1,36 @@
+<div class="container p-3 animated fadeIn">
+  <div class="row">
+
+    <!-- action board -->
+    <div class="col-8">
+      <div class="row">
+        <div class="col-12">
+          <app-player [player]="dealer" (onDealerReveal)="onReveal($event)"></app-player>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <app-player [player]="player1"></app-player>
+        </div>
+      </div>
+
+    </div>
+    <!-- end of action board -->
+
+    <!-- show deck -->
+    <div *ngIf="deck && !gameHasFinished" class="col-4" style="cursor: pointer;">
+      <app-deck *ngIf="!handWasDrawn" (click)="getHands()"></app-deck>
+    </div>
+    <!-- end of deck -->
+
+    <!-- show results -->
+    <div *ngIf="gameHasFinished" class="col-4 animated fadeInRight">
+      <span class="font-weight-bold">{{winnerName}} wins!</span><br>
+      <span class="font-weight-bold">{{dealer.name}}</span> points: {{dealerPoints}} <br>
+      <span class="font-weight-bold">{{player1.name}}</span> points: {{player1Points}} <br>
+      <p-button (onClick)="refresh()" label="Deal Again" class="btn"></p-button>
+    </div>
+    <!-- end of results -->
+  </div>
+</div>

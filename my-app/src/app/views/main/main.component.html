@@ -1,0 +1,9 @@
+<div class="container text-center animated fadeIn">
+  <h2 class="mt-5">CrapJack</h2>
+  <p-button label="New Game" [routerLink]="['/crapjack']" class="btn"></p-button>
+  <p-button label="View Rules" (onClick)="showRules = true" class="btn"></p-button>
+
+</div>
+<div *ngIf="showRules" class="container text-center animated fadeIn">
+  <app-rules></app-rules>
+</div>

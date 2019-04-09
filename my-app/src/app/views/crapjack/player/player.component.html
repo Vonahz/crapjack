@@ -1,0 +1,16 @@
+<h2 class="text-primary">{{player.name}}</h2>
+
+<ng-container *ngIf="player.hand">
+  <div *ngIf="player.isDealer; else playerDom">
+    <p-button (click)="reveal()" label="Reveal" class="m-2"></p-button> <br>
+    <img src="assets/card_back.svg" alt="card_back" class="animated fadeInLeft">
+    <img src="assets/card_back.svg" alt="card_back" class="animated fadeInLeft">
+    <img src="assets/card_back.svg" alt="card_back" class="animated fadeInLeft">
+  </div>
+
+  <ng-template #playerDom>
+    <span *ngFor="let card of player.hand">
+      <img src="{{card.image}}" alt="card" class="animated fadeInLeft">
+    </span>
+  </ng-template>
+</ng-container>
