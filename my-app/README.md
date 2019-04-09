@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ##Project description
 
-App Structure: 
+App Structure:  
  -app  
  --pipes ( 1 pipe for calculating point from cards)  
  --services ( 1 service for deck api )  
@@ -61,8 +61,15 @@ UI:
  2.Reveal button -> show dealer cards -> finish the game and calculate score.  
  3.Option to deal again.  
 
+## Time Spent
 
- DEMO    
+1 hour - setup environment ( I could not use my desktop setup so I used friends' laptop)
+30 minutes - reading task and planning  
+3 hours - development  
+30 minutes - styling and researching for some animations
+30 minutes - description
+
+## DEMO    
 
 
 "# crapjack" 
