@@ -26,31 +26,31 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-#Project description
+## Project description
 
-App Structure: 
+## App Structure: 
  -app
  --pipes ( 1 pipe for calculating point from cards)
  --services ( 1 service for deck api )
  --views ( all views in the app )
-
-Missing things:
+##
+## Missing things:
 
 Unit tests. I don't write unit test in my daily work so I will need more time to learn how to use them in their best.
 Not expirienced in css animations so I used the easiest solution for me.
 Don't have player profiles neither highest scores.
 Track game session scores.
 Back-end component.
-
-Main functionallity:
+##
+##Main functionallity:
 
 DECK API was used for the cards and images - http://deckofcardsapi.com/.
 Added 1 scss file for css animations - http://daneden.me/animate.
 Primeng was used for UI. ( Could have lived without it for this app actually :D) - https://www.primefaces.org/primeng/#/.
 Bootstrap was added to ease the styling.
 
-
-UI:
+##
+##UI:
 
 1.Play 
 2.View rules
