@@ -61,7 +61,7 @@ UI:
 
 ## Time Spent
 
-1 hour - setup environment ( I could not use my desktop setup so I used friends' laptop)
+1 hour - setup environment ( I could not use my desktop setup so I used friends' laptop)  
 30 minutes - reading task and planning  
 3 hours - development  
 30 minutes - styling and researching for some animations
