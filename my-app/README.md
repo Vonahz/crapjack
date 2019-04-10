@@ -64,7 +64,7 @@ UI:
 1 hour - setup environment ( I could not use my desktop setup so I used friends' laptop)  
 30 minutes - reading task and planning  
 3 hours - development  
-30 minutes - styling and researching for some animations
+30 minutes - styling and researching for some animations  
 30 minutes - description
   
 [DEMO](http://notblackjack.epizy.com)
