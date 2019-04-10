@@ -66,8 +66,5 @@ UI:
 3 hours - development  
 30 minutes - styling and researching for some animations
 30 minutes - description
-
-## DEMO    
-
-
-"# crapjack" 
+  
+[DEMO](http://notblackjack.epizy.com)
